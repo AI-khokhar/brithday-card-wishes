@@ -1,0 +1,524 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik Wet Paint', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Main container styling */
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+.navigation {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Heading */
+.heading-div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.heading-style h1 {
+    font-family: 'Kablammo', sans-serif;
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+/* Main Wishes */
+.main-wishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.wishes, .img-div {
+    flex: 1 1 300px;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.wish {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.para {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.sir-img {
+    width: 100%;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .heading-style h1 {
+        font-size: 2rem;
+    }
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .wish {
+        font-size: 1.2rem;
+    }
+
+    .para {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .heading-style h1, .heading {
+        font-size: 1.5rem;
+    }
+
+    .wish {
+        font-size: 1rem;
+    }
+
+    .para {
+        font-size: 0.85rem;
+    }
+}
+
+
+/* journey */
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Main container styling */
+.img-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(158, 25, 47);
+    margin-bottom: 20px;
+}
+
+.navigation {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    background-color: rgb(228, 112, 112); 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Image gallery styles */
+.image-div1,
+.image-div2,
+.image-div3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.image-div1 div,
+.image-div2 div,
+.image-div3 div {
+    flex: 1 1 300px;
+    max-width: 300px;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .image-div1, .image-div2, .image-div3 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    figcaption {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .heading-div {
+    margin-top: -80px;
+    height: 500px;
+    justify-items: center;
+
+}
+
+
+.head {
+    text-align: center;
+
+}
+
+.heading {
+    text-align: center;
+}
+
+.main-wishes {
+    display: inline-flex;
+}
+
+.wishes {
+    font-family: "Kablammo", serif;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 23px;
+    background-color: rgb(250, 219, 142);
+    
+
+}
+.para{
+    color: rgb(100, 32, 0);
+}
+
+.wish{
+    color: darkgreen;
+    background-color: rgb(243, 236, 208);
+}
+
+.img-div {
+
+    width: 50%;
+}
+
+.button {
+    border: 5px;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+    background-color: green;
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.button:hover {
+    background-color: greenyellow;
+}
+
+.button {
+
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.head {
+font-size: 60px;
+    
+
+}
+
+.heading {
+    color: black;
+    font-size: 60px;
+}
+
+.heading:hover {
+    color: black;
+}
+
+.head:hover {
+    color: black;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+.btn-next {
+    padding-top: 5px;
+}
+
+.main-div {
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.main-vedios {
+
+    display: inline-block;
+}
+
+.middle-vedios {
+    display: inline-block;
+}
+
+.last-vedios {
+    display: inline-block;
+}
+
+.second-last-vedios {
+    display: inline-block;
+}
+
+
+.image-div1 {
+    display: inline-flex;
+}
+
+.image-div2 {
+    display: inline-flex;
+}
+
+.image-div3 {
+    display: inline-flex;
+}
+
+.image-div4 {
+    display: inline-flex;
+}
+.img-main{
+
+}
+
+.heading-div{
+    background-size: cover;
+    opacity: o.5rem;
+    background-image: url(asserts/birthday-celebration-decorations-realistic_1284-24274.jpg);
+}
+
+.heading-style{
+    
+
+    padding-top: 180px;
+
+}
+
+.sir-img{
+    width: 500px;
+    border-radius: 50px;
+}
+body{
+    padding: 0;
+    margin: 0px;
+    background-color: #fadb8e;
+}
+
+.img-div{
+    padding: 50px;
+    text-align: center;
+}
+.main-wishes{
+    padding: 50px;
+}
+
+.header{
+
+    padding: 40px 0px;
+}
+
+
+@media (max-width: 768px) {
+    .heading-style h1 {
+        font-size: 2rem;
+    }
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .wish {
+        font-size: 1.2rem;
+    }
+
+    .para {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .heading-style h1, .heading {
+        font-size: 1.5rem;
+    }
+
+    .wish {
+        font-size: 1rem;
+    }
+
+    .para {
+        font-size: 0.85rem;
+    }
+} */
